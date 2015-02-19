@@ -13,21 +13,43 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.text-vertical-center {
+a {
+color: #25272B;
+transition: 0.2s;
+-moz-transition: 0.2s;
+-webkit-transition: 0.2s;
+-o-transition: 0.2s;
+}
+
+.text-vertical {
     display: table-cell;
-    text-align: center;
     vertical-align: middle;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
-.text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
+.text-vertical a {
+    color: #fff;
 }
+
+.text-vertical h1,
+.text-vertical h2 {
+    font-size: 65px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.text-vertical h2 {
+    font-size: 40px;
+}
+
+
 
 /* Custom Button Styles */
 
@@ -218,6 +240,64 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
+}
+
+.form-signin {
+    background: rgba(0,0,0,0.5);
+    padding: 35px;
+    margin: 0 auto;
+}
+
+.scroll-btn {
+	text-align: center;
+	width: 100%;
+    display: block;
+}
+
+.scroll-btn .mouse {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 75px;
+    margin: 0 auto 5px;
+    border: 2px solid #fff;
+    border-radius: 24px;
+}
+
+.scroll-btn .mouse span {
+	position: absolute;
+	display: block;
+	top: 25%;
+	left: 50%;
+	width: 8px;
+	height: 12px;
+	margin: -3px 0 0 -3px;
+	background: #fff;
+	border-radius: 20px;
+	-webkit-animation: scroll 2s linear infinite;
+	-moz-animation: scroll 2s linear infinite;
+	animation: scroll 2s linear infinite;
+}
+
+@-webkit-keyframes scroll {
+	0% {opacity: 1; top: 40%;}
+	33% {opacity: 1; top: 25%;}
+	66% {opacity: 0; top: 25%;}
+	100% {opacity: 0; top: 40%;}
+}
+
+@-moz-keyframes scroll {
+	0% {opacity: 1; top: 40%;}
+	33% {opacity: 1; top: 25%;}
+	66% {opacity: 0; top: 25%;}
+	100% {opacity: 0; top: 40%;}
+}
+
+@keyframes scroll {
+	0% {opacity: 1; top: 40%;}
+	33% {opacity: 1; top: 25%;}
+	66% {opacity: 0; top: 25%;}
+	100% {opacity: 0; top: 40%;}
 }
 
 /* Map */
