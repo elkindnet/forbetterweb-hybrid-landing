@@ -49,6 +49,10 @@ transition: 0.2s;
     font-size: 40px;
 }
 
+h3 {
+line-height: 1.5;
+}
+
 .btn {
     border-radius: 3px;
 }
