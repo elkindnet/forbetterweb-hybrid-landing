@@ -49,9 +49,9 @@ transition: 0.2s;
     font-size: 40px;
 }
 
-
-
-/* Custom Button Styles */
+.btn {
+    border-radius: 3px;
+}
 
 .btn-dark {
     border-radius: 0;
@@ -248,10 +248,25 @@ hr.small {
     margin: 0 auto;
 }
 
+.form-control {
+    height: 44px;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
+
 .scroll-btn {
-	text-align: center;
+	padding-top: 10px;
 	width: 100%;
     display: block;
+    text-align: center;
 }
 
 .scroll-btn .mouse {
