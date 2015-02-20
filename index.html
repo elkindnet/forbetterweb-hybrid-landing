@@ -20,6 +20,8 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+    <link href="flat/grey.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,46 +76,29 @@
                         <ul>
                         <li>Responsive layout, optimized for high conversion</li>
                         <li>Clean & Beautiful Design focused on good readability</li>
-                        <li>Seo Optimized , Light weight code based on bootstrap</li>
+                        <li>Seo Optimized, Light weight code based on bootstrap</li>
                         <li>Easy to Customize</li>
                         </ul>
                         
                     </div>
                     <div class="col-md-4 col-md-offset-1">
-        <form class="form-signin">
-         <h2>Subscribe Now</h2>
+    <form class="form-signin">
+        <h2>Subscribe Now</h2>
         <p>Don’t miss this Great Opportunity, Get it Now. Subscribe & get your Hybrid</p>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-            
-            
-            <div class="btn-group" data-toggle="buttons">
-  <label class="btn btn-primary">
-    <input type="radio" name="options" id="option1" checked="checked"> Option 1
-  </label>
-  <label class="btn btn-primary">
-    <input type="radio" name="options" id="option2"> Option 2
-  </label>
-  <label class="btn btn-primary">
-    <input type="radio" name="options" id="option3"> Option 3
-  </label>
-</div>
-            
-            
+        <label><input type="radio" name="iCheck" checked> Design</label>
+        <label><input type="radio" name="iCheck"> Code</label>
+        <label><input type="radio" name="iCheck"> Seo Optimized</label>
         <button class="btn btn-lg btn-info btn-block" type="submit">Sign in</button>
-      </form>                       
+    </form>                       
                         
                     </div>
                 </div>
                 
-                <hr>
+                 <hr>
                         <span class="scroll-btn">
 				            <a href="#about">
                             <span class="mouse"><span></span></span>
@@ -146,7 +131,6 @@
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     <h2>Our Services</h2>
-                    <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -223,7 +207,6 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2>Our Work</h2>
-                    <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
@@ -312,7 +295,6 @@
                             <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
-                    <hr class="small">
                     <p class="text-muted">Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
@@ -324,6 +306,19 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    
+    <!-- Forms -->
+    <script src="js/icheck.min.js"></script>
+    
+    <script>
+$(document).ready(function(){
+  $('input').iCheck({
+    checkboxClass: 'icheckbox_flat-grey',
+    radioClass: 'iradio_flat-grey',
+    increaseArea: '20%' // optional
+  });
+});
+</script>
 
     <!-- Custom Theme JavaScript -->
     <script>

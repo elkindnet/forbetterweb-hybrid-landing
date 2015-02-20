@@ -1,10 +1,6 @@
 /*!
- * Start Bootstrap - Hybrid Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * ForBetterWeb.com - Hybrid Landing Page - Bootstrap Theme
  */
-
-/* Global Styles */
 
 html,
 body {
@@ -21,7 +17,7 @@ body {
 a {
 color: #25272B;
 transition: 0.2s;
--moz-transition: 0.2s;
+-moz-transition: 0.2s;s
 -webkit-transition: 0.2s;
 -o-transition: 0.2s;
 }
@@ -88,13 +84,6 @@ line-height: 1.5;
     background-color: rgba(255,255,255,0.8);
 }
 
-/* Custom Horizontal Rule */
-
-hr.small {
-    max-width: 100px;
-}
-
-/* Side Menu */
 
 #sidebar-wrapper {
     z-index: 1000;
@@ -266,7 +255,12 @@ hr.small {
 }
 
 .checkbox {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+label {
+    margin: 0 10px 20px 0;
 }
 
 .scroll-btn {
