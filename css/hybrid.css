@@ -11,7 +11,7 @@ body {
 body {
     font-size: 18px;
     line-height: 1.8;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 a {
@@ -49,17 +49,15 @@ margin-bottom: 30px;
 
 .text-vertical h1 {
     font-size: 65px;
-    letter-spacing: 2px;
-    padding-bottom: 30px;
+    letter-spacing: -2px;
 }
 
 
-.text-vertical h1,
-.text-vertical h2 {
+h1, h2 {
     font-weight: 900;
 }
 
-.text-vertical h2 {
+h2 {
     font-size: 35px;
     margin-bottom: 20px;
     
