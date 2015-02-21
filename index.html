@@ -35,10 +35,10 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-2x fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-1x fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-2x fa-times"></i></a>
             <li class="sidebar-brand">
                 <a href="#top">Hybrid</a>
             </li>
@@ -87,8 +87,13 @@
         <p>Don’t miss this Great Opportunity, Get it Now. Subscribe & get your Hybrid</p>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+
+        <label for="inputTell" class="sr-only">Phone Number</label>
+        <input type="text" id="inputTell" class="form-control" placeholder="Phone Number" required="" data-format="(ddd) ddd-dddd">
+
         <label><input type="radio" name="iCheck" checked> Design</label>
         <label><input type="radio" name="iCheck"> Code</label>
         <label><input type="radio" name="iCheck"> Seo Optimized</label>
@@ -125,36 +130,29 @@
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+        <div class="container">
+
+                    <h1>Our Services</h1>
                     <div class="row">
                         
+
                         <div class="col-md-4">
-                            <h3><i class="fa fa-desktop fa-3x"></i> Fully Responsive</h3>
-                            <p>Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+                            <h3>Fully Responsive</h3>
+                            <p><i class="fa fa-desktop fa-3x"></i> Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
                         </div>
                         
                         <div class="col-md-4">
-                                <h3><i class="fa fa-heart fa-3x"></i> Service Name</h3>
-                                <p>Hybrid will look beautiful on any device. Serve high-resolution images to devices with retina displays.</p>
+                                <h3>Service Name</h3>
+                                <p><i class="fa fa-heart fa-3x"></i> Hybrid will look beautiful on any device. Serve high-resolution images to devices with retina displays.</p>
 
                         </div>
                         <div class="col-md-4">
-                                <h3><i class="fa fa-rocket fa-3x"></i> Service Name</h3>
-                                <p>Clean & fully commented code and a stunning documentation make it very easy to setup</p>
-
+                                <h3>Service Name</h3>
+                                <p><i class="fa fa-rocket fa-3x"></i> Clean & fully commented code and a stunning documentation make it very easy to setup</p>
                         </div>
 
                     </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </section>
 
     <!-- Callout -->
@@ -167,80 +165,87 @@
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+        <div class="container-fluid text-center">
+                    <h1>Our Work</h1>
+                    <h3>We believe our work speaks for itself. Browse our most recent projects below</h3>
+
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
+                        <div class="col-md-3 no-pad">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
                                 </a>
-                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
+                        <div class="col-md-3 no-pad">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
                                 </a>
-                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
+                        <div class="col-md-3 no-pad">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
-                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
+                        <div class="col-md-3 no-pad">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
                                 </a>
-                            </div>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
     </section>
 
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <aside class="call-to-action">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>Don’t Miss This Great Opportunity & Get it Now !</h1>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                    <p>Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+                    <div class="row"><a href="#" class="button border-button">Click Me!</a></div>
                 </div>
             </div>
         </div>
     </aside>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section>
+
+<div id="sponsor">
+    <div class="container">
+        <div class="row sponsor text-center">
+            
+          <div class="col-sm-2 col-sm-offset-1">
+            <img src="img/client1.png">
+          </div>
+          <div class="col-sm-2">
+            <img src="img/client3.png">
+          </div>
+          <div class="col-sm-2">
+            <img src="img/client2.png">
+          </div>
+          <div class="col-sm-2">
+            <img src="img/client4.png">
+          </div>
+          <div class="col-sm-2">
+            <img src="img/client5.png">
+          </div>
+            
+        </div>
+    </div>
+</div>    
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="container" id="contact">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>ForBetterWeb.com</strong>
                     </h4>
+
+                    <form action="//formspree.io/elkind@gmail.com">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+
                     <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
@@ -273,6 +278,9 @@
     
     <!-- Forms -->
     <script src="js/icheck.min.js"></script>
+
+    <!-- SmoothScroll -->
+    <script src="js/SmoothScroll.js"></script>
     
     <script>
 $(document).ready(function(){
