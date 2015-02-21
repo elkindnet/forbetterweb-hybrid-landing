@@ -15,12 +15,14 @@ body {
 }
 
 a {
-color: #25272B;
+text-decoration: underline;
 transition: 0.2s;
 -moz-transition: 0.2s;s
 -webkit-transition: 0.2s;
 -o-transition: 0.2s;
 }
+
+
 
 .text-vertical {
     display: table-cell;
@@ -206,25 +208,27 @@ padding-top: 25px;
 }
 
 .services .fa {
-    float: left;
-    padding: 0 20px 130px 0;
     color: #789;
+    padding-top: 30px;
 }
 
 .callout {
     display: table;
     width: 100%;
-    height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/callout.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.portfolio {
+.callout .text-vertical {
     padding: 100px 0;
+}
+
+.portfolio {
+    padding: 100px 0 0;
 }
 
 .img-portfolio:hover {
@@ -344,7 +348,7 @@ footer {
     padding-right: 0;
 }
 
-.border-button {
+a.border-button {
     background:transparent; 
     border:2px solid #E4E4E4; 
     font-size:20px;
@@ -353,10 +357,10 @@ footer {
     margin-top:30px;
     font-weight:400;
     display: inline-block;
+    text-decoration: none;
 }
 
-.border-button:hover { 
+a.border-button:hover {
     background:#789;
-    border:2px solid #000;
-    color:#fff;
+    color:#000;
 }

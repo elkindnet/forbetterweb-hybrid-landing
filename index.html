@@ -133,29 +133,38 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services">
-        <div class="container">
+    <section id="services" class="services text-center">
+        <div class="container-fluid">
 
                     <h1>Our Services</h1>
+                <div class="col-md-10 col-md-offset-1">
+
                     <div class="row">
                         
-
-                        <div class="col-md-4">
+                        <div class="col-md-3">
+                            <i class="fa fa-desktop fa-3x"></i>
                             <h3>Fully Responsive</h3>
-                            <p><i class="fa fa-desktop fa-3x"></i> Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+                            <p>Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
                         </div>
                         
-                        <div class="col-md-4">
-                                <h3>Service Name</h3>
-                                <p><i class="fa fa-heart fa-3x"></i> Hybrid will look beautiful on any device. Serve high-resolution images to devices with retina displays.</p>
-
+                        <div class="col-md-3">
+                            <i class="fa fa-heart fa-3x"></i>
+                            <h3>Service Name</h3>
+                            <p> Hybrid will look beautiful on any device. Serve high-resolution images to devices with retina displays.</p>
                         </div>
-                        <div class="col-md-4">
-                                <h3>Service Name</h3>
-                                <p><i class="fa fa-rocket fa-3x"></i> Clean & fully commented code and a stunning documentation make it very easy to setup</p>
+                        <div class="col-md-3">
+                            <i class="fa fa-rocket fa-3x"></i>
+                            <h3>Service Name</h3>
+                            <p> Clean & fully commented code and a stunning documentation make it very easy to setup</p>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-camera fa-3x"></i>
+                            <h3>Service Name</h3>
+                            <p> Clean & fully commented code and a stunning documentation make it very easy to setup</p>
                         </div>
 
-                    </div>
+                    </div>     
+               </div>
         </div>
     </section>
 
@@ -164,6 +173,7 @@
         <div class="text-vertical text-center">
             <h1>It’s time to grow your business</h1>
             <p>Designed for Everyone. Let’s give your website a brand</p>
+            <div class="row"><a href="#" class="button border-button">Click Me!</a></div>
         </div>
     </aside>
 
@@ -195,6 +205,28 @@
                                 </a>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-md-3 no-pad">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-5.jpg">
+                                </a>
+                        </div>
+                        <div class="col-md-3 no-pad">
+<iframe src="//player.vimeo.com/video/87701971?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                        <div class="col-md-3 no-pad">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-6.jpg">
+                                </a>
+                        </div>
+                        <div class="col-md-3 no-pad">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-8.jpg">
+                                </a>
+                        </div>
+                    </div>
+
             </div>
     </section>
 
@@ -213,7 +245,7 @@
 
 
 <div id="sponsor">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row sponsor text-center">
             
           <div class="col-sm-2 col-sm-offset-1">
@@ -238,25 +270,19 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container" id="contact">
+        <div id="contact" class="container text-center">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
+                <div class="col-lg-4">
                     <h4><strong>ForBetterWeb.com</strong>
                     </h4>
-
-                    <form action="//formspree.io/elkind@gmail.com" method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form>
-
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
+                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="col-lg-4">
                     <ul class="list-inline">
                         <li>
                             <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
@@ -268,8 +294,12 @@
                             <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
                 </div>
+                <div class="col-lg-4">
+                    <p class="text-muted">Copyright &copy; Your Website 2014<br>
+                    Theme: <a href="/">Hybrid</a> by <a href="/">forbetterweb.com</a></p>
+                </div>
+
             </div>
         </div>
     </footer>
