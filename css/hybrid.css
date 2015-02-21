@@ -69,8 +69,9 @@ h3 {
 line-height: 1.5;
 }
 
-.btn {
-    border-radius: 3px;
+.btn,
+.form-control {
+    border-radius: 2px;
 }
 
 .btn-dark {
@@ -83,7 +84,8 @@ line-height: 1.5;
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
+    opacity: .8;
 }
 
 .btn-light {
@@ -122,8 +124,8 @@ line-height: 1.5;
     list-style: none;
 }
 
-.sidebar-nav li {
-    text-indent: 20px;
+.sidebar-nav li a {
+    padding-left: 25px;
     line-height: 50px;
 }
 
@@ -136,6 +138,7 @@ line-height: 1.5;
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
+    text-indent: 2px;
     background: rgba(255,255,255,0.2);
 }
 
@@ -147,11 +150,12 @@ line-height: 1.5;
 .sidebar-nav > .sidebar-brand {
 font-size: 22px;
 font-weight: 700;
-padding: 25px 0;
+padding-top: 25px;
 }
 
 .sidebar-nav > .sidebar-brand a {
     color: #999;
+    padding-left: 22px;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -242,13 +246,7 @@ padding: 25px 0;
 }
 
 .form-control {
-    height: 44px;
-    padding: 10px 20px;
-    font-size: 18px;
-    line-height: 1.6;
-    border-radius: 3px;
     margin-bottom: 15px;
-    
 }
 
 .form-signin p {
@@ -261,7 +259,7 @@ padding: 25px 0;
 
 
 label {
-    margin: 0 10px 20px 0;
+    margin: 10px 10px 20px 0;
 }
 
 .scroll-btn {
@@ -340,6 +338,10 @@ footer {
 
 .no-pad {
     padding: 0;
+}
+
+.no-pad-right {
+    padding-right: 0;
 }
 
 .border-button {

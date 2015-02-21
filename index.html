@@ -40,7 +40,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-2x fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top">Hybrid</a>
+                <a href="#top">Hybrid <i class="fa fa-power-off"></i></a>
             </li>
             <li>
                 <a href="#top">Home</a>
@@ -67,7 +67,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-5 col-md-offset-1">
-                        <h1>HYBRID</h1>
+                        <h1>HYBRID  <i class="fa fa-power-off"></i></h1>
                         <h2>Smart Landing Page</h2>
                         
                         <p>Hybrid is free bootstrap teme from ForBetterWeb.com. This theme is designed & optimized for high conversion</p>
@@ -83,21 +83,25 @@
                     </div>
                     <div class="col-md-4 col-md-offset-1">
     <form class="form-signin">
-        <h2>Subscribe Now</h2>
-        <p>Don’t miss this Great Opportunity, Get it Now. Subscribe & get your Hybrid</p>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+        <h2>Get your Hybrid</i></h2>
+        <p>Don’t miss this Great Opportunity</p>
+        <label for="inputEmail" class="sr-only control-label">Email address</label>
+        <input name="email" type="email" id="inputEmail" class="form-control input-lg" placeholder="Email address" required="">
 
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-
-        <label for="inputTell" class="sr-only">Phone Number</label>
-        <input type="text" id="inputTell" class="form-control" placeholder="Phone Number" required="" data-format="(ddd) ddd-dddd">
-
+<div class="row">
+  <div class="col-lg-6 no-pad-right">
+    <label for="inputName" class="sr-only control-label">You Name</label>
+    <input name="name" type="text" id="inputName" class="form-control input-lg" placeholder="You Name" required="">
+  </div>
+  <div class="col-lg-6">
+    <label for="inputTell" class="sr-only control-label">You Phone</label>
+    <input name="tel" type="tel" id="inputTell" class="form-control input-lg" placeholder="You Phone" required="" data-format="(ddd) ddd-dddd">
+  </div>
+</div>
         <label><input type="radio" name="iCheck" checked> Design</label>
         <label><input type="radio" name="iCheck"> Code</label>
         <label><input type="radio" name="iCheck"> Seo Optimized</label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
     </form>                       
                         
                     </div>
@@ -323,7 +327,5 @@ $(document).ready(function(){
         });
     });
     </script>
-
 </body>
-
 </html>
