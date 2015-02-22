@@ -383,3 +383,11 @@ a.border-button:hover {
     width: 101%;
     height: 100%;
 }
+
+.help-block {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    font-size: 12px;
+    list-style: none;
+ }
