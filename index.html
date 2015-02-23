@@ -21,8 +21,6 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-    <link href="flat/grey.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -82,26 +80,44 @@
 
                 </div>
                 <div class="col-md-4 col-md-offset-1">
-                    <form class="form-signin">
+                    <!-- Contact Form - Enter your email address on line 17 of the mail/contact_me.php file to make this form work. -->
+                    <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+                    <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+
+                    <form name="sentMessage" id="contactForm" novalidate>
                         <h2>Get your Hybrid</i></h2>
                         <p>Don’t miss this Great Opportunity</p>
-                        <label for="inputEmail" class="sr-only control-label">Email address</label>
-                        <input name="email" type="email" id="inputEmail" class="form-control input-lg" placeholder="Email address" required="">
 
-                        <div class="row">
-                            <div class="col-lg-6 no-pad-right">
-                                <label for="inputName" class="sr-only control-label">You Name</label>
-                                <input name="name" type="text" id="inputName" class="form-control input-lg" placeholder="You Name" required="">
-                            </div>
-                            <div class="col-lg-6">
-                                <label for="inputTell" class="sr-only control-label">You Phone</label>
-                                <input name="tel" type="tel" id="inputTell" class="form-control input-lg" placeholder="You Phone" required="" data-format="(ddd) ddd-dddd">
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="name" class="sr-only control-label">Name</label>
+                                <input type="text" class="form-control input-lg" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <span class="help-block text-danger"></span>
                             </div>
                         </div>
-                        <label><input type="radio" name="iCheck" checked> Design</label>
-                        <label><input type="radio" name="iCheck"> Code</label>
-                        <label><input type="radio" name="iCheck"> Seo Optimized</label>
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+                        <div class="row control-group">
+
+                            <div class="form-group col-lg-6 floating-label-form-group controls no-pad-right">
+                                <label for="email" class="sr-only control-label">Email</label>
+                                <input type="email" class="form-control input-lg" placeholder="Email" id="email" required data-validation-required-message="Please enter your email address.">
+                                <span class="help-block text-danger"></span>
+                            </div>
+
+
+                            <div class="form-group col-lg-6 floating-label-form-group controls">
+                                <label for="phone" class="sr-only control-label">You Phone</label>
+                                <input type="tel" class="form-control input-lg" placeholder="Phone" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <span class="help-block text-danger"></span>
+                            </div>
+
+                        </div>
+
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-lg btn-primary btn-block">Send</button>
+                            </div>
+                        </div>
                     </form>
 
                 </div>
@@ -210,7 +226,7 @@
         <div class="row">
             <div class="col-md-4 no-pad">
                 <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/portfolio-5.jpg">
+                    <img class="img-portfolio img-responsive" src="img/portfolio-6.jpg">
                 </a>
             </div>
 
@@ -226,7 +242,7 @@
 
             <div class="col-md-4 no-pad">
                 <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/portfolio-6.jpg">
+                    <img class="img-portfolio img-responsive" src="img/portfolio-5.jpg">
                 </a>
             </div>
         </div>
@@ -333,56 +349,6 @@
             <div class="col-lg-4">
                 <p class="text-muted">Copyright &copy; Your Website 2014<br>
                     Theme: <a href="/">Hybrid</a> by <a href="/">forbetterweb.com</a></p>
-
-
-<!-- begin form -->
-
-                <!-- Contact Form - Enter your email address on line 19 of the form.php file to make this form work. -->
-                <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
-                <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Name</label>
-                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-
-                            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
-
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Email Address</label>
-                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Phone Number</label>
-                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Message</label>
-                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <br>
-                    <div id="success"></div>
-                    <div class="row">
-                        <div class="form-group col-xs-12">
-                            <button type="submit" class="btn btn-default">Send</button>
-                        </div>
-                    </div>
-                </form>
-
-<!-- enf form -->
-
 
             </div>
 

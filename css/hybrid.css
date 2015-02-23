@@ -191,7 +191,7 @@ h3 {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/9.jpg) no-repeat center center fixed;
+    background: url(../img/4.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -241,12 +241,13 @@ h3 {
     color: #fff;
 }
 
-.form-signin {
+#contactForm {
     background: rgba(0,0,0,0.35);
     padding: 10px 35px 35px;
     margin-top: 20px;
     margin-bottom: 10px;
     max-width: 450px;
+    text-shadow: none;
 }
 
 .form-control {
@@ -384,10 +385,21 @@ a.border-button:hover {
     height: 100%;
 }
 
-.help-block {
-    position: absolute;
-    top: 60px;
-    right: 20px;
+.help-block li {
     font-size: 12px;
     list-style: none;
+    color:#fff;
  }
+
+.help-block ul {
+    padding: 0;
+    margin: 0;
+}
+
+#top .form-control {
+    margin-bottom:0;
+}
+
+#top .form-group {
+    margin-bottom: 10px;
+}
