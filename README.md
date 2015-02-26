@@ -1,6 +1,6 @@
 # [ForBetterWeb.com](http://forbetterweb.com/) - [Hybrid Landing Page](http://forbetterweb.com/)
 
-<img src="https://raw.githubusercontent.com/elkindnet/forbetterweb-hybrid-landing/gh-pages/screenshot.jpg">
+<img src="https://raw.githubusercontent.com/elkindnet/forbetterweb-hybrid-landing/gh-pages/img/screenshot.jpg">
 
 ###[Live Demo](http://elkindnet.github.io/forbetterweb-hybrid-landing/)   |   [Download](https://github.com/elkindnet/forbetterweb-hybrid-landing/archive/gh-pages.zip)
 
