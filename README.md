@@ -1,5 +1,9 @@
 # [ForBetterWeb.com](http://forbetterweb.com/) - [Hybrid Landing Page](http://forbetterweb.com/)
 
+<img src="https://raw.githubusercontent.com/elkindnet/codedesign-onepage-starter-plus/gh-pages/screenshot.jpg">
+
+###[Live Demo](http://elkindnet.github.io/forbetterweb-hybrid-landing/)   |   [Download](https://github.com/elkindnet/forbetterweb-hybrid-landing/archive/gh-pages.zip)
+
 [Hybrid Landing Page](http://forbetterweb.com/) is a responsive, one page portfolio theme for [Bootstrap](http://forbetterweb.com/) created by [ForBetterWeb.com](http://forbetterweb.com/). The theme features multiple content sections with an off canvas navigation menu.
 
 ## Getting Started
