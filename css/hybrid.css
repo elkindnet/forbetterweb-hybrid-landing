@@ -15,15 +15,17 @@ body {
 }
 
 a {
+    color:#789;
+    text-decoration: underline;
     transition: 0.2s;
     -moz-transition: 0.2s;s
--webkit-transition: 0.2s;
+    -webkit-transition: 0.2s;
     -o-transition: 0.2s;
 }
 
-a:hover {
-    text-decoration: none;
-}
+a:hover, a:focus {
+    color:#999;
+    }
 
 h1, h2, h3, h4, h5, h6 {
     clear: both;
@@ -36,7 +38,6 @@ h1, h2, h3 {
     margin-bottom: 30px;
 }
 
-
 h1 {
     font-size: 45px;
     line-height: 52px;
@@ -44,53 +45,18 @@ h1 {
     letter-spacing: -2px;
 }
 
+h1 a, h1 a:hover,  h1 a:focus  {
+    text-decoration: none;
+}
+
 h2 {
     font-size: 35px;
     margin-bottom: 20px;
-
-}
-
-.text-vertical a {
-    color: #fff;
-}
-
-.text-vertical p {
-    margin-bottom: 30px;
 }
 
 h3 {
     line-height: 1.5;
 }
-
-.btn,
-.form-control {
-    border-radius: 2px;
-}
-
-.btn-dark {
-    border-radius: 50%;
-    color: #fff;
-    background-color: rgba(0,0,0,0.4);
-}
-
-.btn-dark:hover,
-.btn-dark:focus,
-.btn-dark:active {
-    color: #fff;
-    background-color: rgba(0,0,0,0.9);
-    opacity: .8;
-}
-
-.btn-light {
-    color: #fff;
-}
-
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active {
-    color: #999;
-}
-
 
 #sidebar-wrapper {
     z-index: 1000;
@@ -177,15 +143,69 @@ h3 {
     margin: 15px 15px 0 0;
 }
 
+.text-vertical a {
+    color: #fff;
+}
 
+.text-vertical p {
+    margin-bottom: 30px;
+}
+
+.btn,
+.form-control {
+    border-radius: 2px;
+}
+
+.btn-dark {
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.9);
+    opacity: .8;
+}
+
+.btn-light {
+    color: #fff;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #999;
+}
+
+
+a.border-button {
+    background:transparent;
+    border:2px solid #E4E4E4;
+    font-size:19px;
+    color:#E4E4E4;
+    padding:10px 50px;
+    margin-top:30px;
+    font-weight:400;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 2px;
+    text-shadow: none;
+}
+
+a.border-button:hover {
+    background:#fff;
+    color:#000;
+}
 
 .text-vertical {
     display: table-cell;
     vertical-align: middle;
-    background: rgba(0,0,0,.55);
+    background: rgba(0,0,0,.2);
     color: #fff;
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
-    padding-top: 150px;
 }
 
 .header {
@@ -193,83 +213,45 @@ h3 {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/6.jpg) no-repeat center center fixed;
+    background: url(../img/header.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-.about {
-    padding: 50px 0;
-}
-
-.services {
-    padding: 100px 0;
-    background: #eee;
-}
-
-.services .fa {
-    color: #789;
-    padding-top: 30px;
-}
-
-.callout {
-    display: table;
-    width: 100%;
-    color: #fff;
-    background: url(../img/4.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.callout .text-vertical {
-    padding: 100px 0;
-}
-
-.portfolio {
-    padding: 100px 0 0;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-#contact {
-    padding: 100px 0;
 }
 
 .call-to-action {
-    padding: 100px 0;
     background: #1B1F23;
     color: #fff;
 }
 
 #contactForm {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.3);
     padding: 10px 35px 35px;
     margin-top: 20px;
     margin-bottom: 10px;
     text-shadow: none;
 }
 
-@media (max-width: 992px) {
-    #contactForm {
-        max-width: 450px;
-        margin: 0 auto;
-    }
-    .text-vertical,
-    footer {
-        text-align: center;
-    }
+.help-block li {
+    font-size: 12px;
+    list-style: none;
+    color:#fff;
 }
-    @media (max-width: 1400px) {
-    .text-vertical {
-    padding-top: 50px;
-    }
+
+.help-block ul {
+    padding: 0;
+    margin: 0;
 }
+
+#top .form-control {
+    margin-bottom:0;
+}
+
+#top .form-group {
+    margin-bottom: 10px;
+}
+
 
 .form-control {
     margin-bottom: 15px;
@@ -282,7 +264,6 @@ h3 {
 .checkbox {
     margin-bottom: 10px;
 }
-
 
 label {
     margin: 10px 10px 20px 0;
@@ -320,81 +301,41 @@ label {
     animation: scroll 2s linear infinite;
 }
 
-@-webkit-keyframes scroll {
-    0% {opacity: 1; top: 30%;}
-    20% {opacity: 1; top: 50%;}
-    60% {opacity: 0; top: 50%;}
-    100% {opacity: 0; top: 30%;}
-}
+@-webkit-keyframes scroll { 0% {opacity: 1; top: 30%;} 20% {opacity: 1; top: 50%;} 60% {opacity: 0; top: 50%;} 100% {opacity: 0; top: 30%;} }
+@-moz-keyframes scroll { 0% {opacity: 1; top: 30%;} 20% {opacity: 1; top: 50%;} 60% {opacity: 0; top: 50%;} 100% {opacity: 0; top: 30%;} }
+@keyframes scroll { 0% {opacity: 1; top: 30%;} 20% {opacity: 1; top: 50%;} 60% {opacity: 0; top: 50%;} 100% {opacity: 0; top: 30%;} }
 
-@-moz-keyframes scroll {
-    0% {opacity: 1; top: 30%;}
-    20% {opacity: 1; top: 50%;}
-    60% {opacity: 0; top: 50%;}
-    100% {opacity: 0; top: 30%;}
-}
-
-@keyframes scroll {
-    0% {opacity: 1; top: 30%;}
-    20% {opacity: 1; top: 50%;}
-    60% {opacity: 0; top: 50%;}
-    100% {opacity: 0; top: 30%;}
-}
-
-#sponsor {
-    padding-bottom: 70px;
-    padding-top: 70px;
-    background: #f2f2f2;
-}
-
-.sponsor img {
-    max-width: 110px;
-    max-height: 50px;
-    vertical-align: middle;
-}
-
-.sponsor .col-sm-2 {
-    height: 80px;
-    line-height: 80px;
-}
-
-footer {
-    padding: 100px 0;
+.services {
     background: #eee;
 }
 
-.no-pad {
-    padding: 0;
+.services .fa {
+    color: #789;
+    padding-top: 30px;
 }
 
-.no-pad-right {
-    padding-right: 0;
+.callout {
+    display: table;
+    width: 100%;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-@media (max-width: 1200px) {
-    .no-pad-right {
-        padding-right: 15px;
-    }
+.callout .text-vertical {
+    background: rgba(0, 0, 0, 0.5);
 }
 
-a.border-button {
-    background:transparent;
-    border:2px solid #E4E4E4;
-    font-size:20px;
-    color:#E4E4E4;
-    padding:15px 40px;
-    margin-top:30px;
-    font-weight:400;
-    display: inline-block;
-    text-decoration: none;
+.portfolio {
+    padding: 100px 0 0;
 }
 
-a.border-button:hover {
-    background:#fff;
-    color:#000;
+.img-portfolio:hover {
+    opacity: 0.8;
 }
-
-
 
 .videowrapper {
     position: relative;
@@ -413,23 +354,108 @@ a.border-button:hover {
     height: 100%;
 }
 
-.help-block li {
-    font-size: 12px;
-    list-style: none;
-    color:#fff;
- }
+#sponsor {
+    padding-bottom: 70px;
+    padding-top: 70px;
+    background: #f2f2f2;
+}
 
-.help-block ul {
+.sponsor img {
+    max-width: 140px;
+    max-height: 50px;
+    vertical-align: middle;
+}
+
+.sponsor .col-sm-2 {
+    height: 80px;
+    line-height: 80px;
+}
+
+footer {
+    background: #eee;
+}
+
+.no-pad {
     padding: 0;
-    margin: 0;
 }
 
-#top .form-control {
-    margin-bottom:0;
+.no-pad-right {
+    padding-right: 0;
 }
 
-#top .form-group {
-    margin-bottom: 10px;
+.services,
+.about,
+footer,
+#contact {
+    padding: 100px 0;
 }
 
+.callout .text-vertical,
+.call-to-action {
+    padding: 150px 0;
+}
 
+@media (max-width: 768px) {
+    body {
+        line-height: 1.7;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    a.border-button {
+        font-size: 16px;
+        padding: 10px 30px;
+        margin-top: 20px;
+    }
+    .portfolio {
+        padding: 50px 0 0;
+    }
+
+}
+
+@media (max-width: 992px) {
+    #contactForm {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .text-vertical,
+    footer {
+        text-align: center;
+    }
+    .scroll-btn {
+        padding-top: 30px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .no-pad-right {
+        padding-right: 15px;
+    }
+
+    .services,
+    .about,
+    footer,
+    #contact {
+        padding: 60px 0;
+    }
+
+    .callout .text-vertical,
+    .call-to-action {
+        padding: 60px 0;
+    }
+
+    #contactForm {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .text-vertical {
+        padding-top: 50px;
+    }
+}

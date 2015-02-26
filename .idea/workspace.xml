@@ -24,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="hybrid.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/hybrid.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.153847" vertical-offset="612" max-vertical-offset="7157">
-              <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
+            <state vertical-scroll-proportion="-23.103449" vertical-offset="5501" max-vertical-offset="7922">
+              <caret line="363" column="17" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hybrid.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/hybrid.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3131313" vertical-offset="3002" max-vertical-offset="7225">
-              <caret line="193" column="28" selection-start-line="193" selection-start-column="28" selection-end-line="193" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.6526674" vertical-offset="3029" max-vertical-offset="6052">
+              <caret line="210" column="72" selection-start-line="210" selection-start-column="72" selection-end-line="210" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -63,8 +63,10 @@
         <option value="E:/OneDrive/www/Oleg Kredit/css/hybrid.css" />
         <option value="E:/OneDrive/www/Oleg Kredit/mail/contact_me.php" />
         <option value="E:/OneDrive/www/Oleg Kredit/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/../forbetterweb/codedesign/footer.php" />
+        <option value="$PROJECT_DIR$/../forbetterweb/codedesign/style.css" />
         <option value="$PROJECT_DIR$/css/hybrid.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -100,7 +102,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -135,6 +136,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,7 +203,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -245,11 +247,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="7157">
+          <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hybrid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="961" max-vertical-offset="17017">
           <caret line="74" column="61" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -271,9 +288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68456376" vertical-offset="2346" max-vertical-offset="4845">
           <caret line="174" column="94" selection-start-line="174" selection-start-column="94" selection-end-line="174" selection-end-column="94" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -281,7 +295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36129755" vertical-offset="0" max-vertical-offset="894">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -289,22 +302,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60978264" vertical-offset="2703" max-vertical-offset="7106">
           <caret line="192" column="28" selection-start-line="192" selection-start-column="28" selection-end-line="192" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forbetterweb/codedesign/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57662624" vertical-offset="42657" max-vertical-offset="47736">
+          <caret line="2540" column="0" selection-start-line="2540" selection-start-column="0" selection-end-line="2540" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forbetterweb/codedesign/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36662883" vertical-offset="0" max-vertical-offset="881">
+          <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hybrid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.103449" vertical-offset="5501" max-vertical-offset="7922">
+          <caret line="363" column="17" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.153847" vertical-offset="612" max-vertical-offset="7157">
-          <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/hybrid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3131313" vertical-offset="3002" max-vertical-offset="7225">
-          <caret line="193" column="28" selection-start-line="193" selection-start-column="28" selection-end-line="193" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.6526674" vertical-offset="3029" max-vertical-offset="6052">
+          <caret line="210" column="72" selection-start-line="210" selection-start-column="72" selection-end-line="210" selection-end-column="72" />
           <folding />
         </state>
       </provider>
