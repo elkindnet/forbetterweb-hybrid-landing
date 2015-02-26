@@ -5,12 +5,12 @@
 ## Getting Started
 
 To use this template, choose one of the following options to get started:
-* Download the latest release on ForBetterWeb.com
+* Download the latest release
 * Fork this repository on GitHub
 
 ## Bugs and Issues
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/) here on GitHub or leave a comment on the [template overview page at ForBetterWeb.com](http://forbetterweb.com/).
+Have a bug or an issue with this theme? Open a new issue here on GitHub or leave a comment on the [template overview page at ForBetterWeb.com](http://forbetterweb.com/).
 
 ## Creator
 
