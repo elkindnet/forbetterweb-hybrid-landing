@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68786126" vertical-offset="255" max-vertical-offset="5134">
-              <caret line="49" column="196" selection-start-line="49" selection-start-column="196" selection-end-line="49" selection-end-column="196" />
+            <state vertical-scroll-proportion="0.55028903" vertical-offset="272" max-vertical-offset="4641">
+              <caret line="43" column="273" selection-start-line="43" selection-start-column="273" selection-end-line="43" selection-end-column="273" />
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/git.ignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/hybrid.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/hybrid.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -413,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68786126" vertical-offset="255" max-vertical-offset="5134">
-          <caret line="49" column="196" selection-start-line="49" selection-start-column="196" selection-end-line="49" selection-end-column="196" />
+        <state vertical-scroll-proportion="0.55028903" vertical-offset="272" max-vertical-offset="4641">
+          <caret line="43" column="273" selection-start-line="43" selection-start-column="273" selection-end-line="43" selection-end-column="273" />
           <folding />
         </state>
       </provider>
