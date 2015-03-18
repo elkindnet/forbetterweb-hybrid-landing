@@ -9,20 +9,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hybrd Landing Page - ForBetterWeb.com Theme</title>
+    <title>Hybrd - Multipurpose Smart Landing Page</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Custom CSS -->
     <link href="css/hybrid.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!-- IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -35,8 +36,9 @@
 <!-- Navigation -->
 <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-1x fa-bars"></i></a>
 <nav id="sidebar-wrapper">
+    <!--  Optional: close button
+    <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-2x fa-times"></i></a> -->
     <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-2x fa-times"></i></a>
         <li class="sidebar-brand">
             <a href="#top">Hybrid <i class="fa fa-power-off"></i></a>
         </li>
@@ -50,7 +52,7 @@
             <a href="#services">Services</a>
         </li>
         <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#testimonials">Testimonials</a>
         </li>
         <li>
             <a href="#contact">Contact</a>
@@ -64,20 +66,22 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-5 col-md-offset-1">
-                    <h1>HYBRID <i class="fa fa-power-off"></i></h1>
-                    <h2>Smart Landing Page</h2>
+                    <h1>HYBRID <i class="fa fa-power-off"></i>  <label class="label label-success label-small">free</label></h1>
+                    <h2><i class="fa fa-rocket"></i> Smart Landing Page</h2>
 
-                    <p>Hybrid is a multipurpose, free, responsive, one page html (bootstrap) theme from&nbsp;<a href="http://forbetterweb.com">forbetterweb.com</a> This theme is designed & optimized for high conversion</p>
-                    <h2>Why Choosing Hybrid?</h2>
-                    <p>Responsive layout, optimized for high conversion. Clean & Beautiful Design focused on good readability. Seo Optimized, Light weight code based on bootstrap</p>
+                    <p>Hybrid is a multipurpose, responsive, one page html (bootstrap) theme</p>
+                    <h2><i class="fa fa-heart"></i> Why Choose Hybrid?</h2>
+                    <p>Seo Optimized, very lightweight code based on bootstrap. Easy to use and fast loading. Responsive layout, optimized for high conversion. Clean design focused on good readability.</p>
+
                 </div>
+
                 <div class="col-md-4 col-md-offset-1">
                     <!-- Contact Form - Enter your email address on line 17 of the mail/contact_me.php file to make this form work. -->
                     <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
                     <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-
                     <form name="sentMessage" id="contactForm" novalidate>
-                        <h2>Get your Hybrid</i></h2>
+
+                        <h2>Get your Hybrid</h2>
                         <p>Don’t miss this Great Opportunity</p>
 
                         <div class="row control-group">
@@ -109,18 +113,24 @@
 
                 </div>
             </div>
-               <span class="scroll-btn">
+            <!-- mouse -->
+               <span class="scroll-btn hidden-xs wow fadeInDownBig">
                    <a href="#about"><span class="mouse"><span></span></span></a>
                </span>
+            <!-- mouse -->
         </div>
     </div>
+
+
 </header>
 
+<!-- about -->
 <section id="about" class="about">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 text-center">
-                <h2>Hybrid Landing Page is the perfect theme for your next project!</h2>
+            <div class="col-xs-12 text-center wow fadeIn">
+                <i class="fa fa-5x fa-h-square"></i><br>
+                <h2 class="heading">Hybrid Landing Page is the perfect theme for your next project!</h2>
                 <p class="lead">Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
             </div>
         </div>
@@ -128,220 +138,217 @@
 </section>
 
 <!-- The icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-<section id="services" class="services text-center">
-    <div class="container-fluid">
-
-        <h1>Our Services</h1>
-        <div class="col-md-10 col-md-offset-1">
+<section class="about-grid">
+    <div class="container-fluid wow fadeIn">
+        <div class="col-lg-10 col-lg-offset-1">
             <div class="row">
-
-                <div class="col-md-3">
-                    <i class="fa fa-desktop fa-3x"></i>
-                    <h3>Fully Responsive</h3>
-                    <p>Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
-                </div>
-                <div class="col-md-3">
-                    <i class="fa fa-heart fa-3x"></i>
-                    <h3>Service Name</h3>
-                    <p> Hybrid will look beautiful on any device. Serve high-resolution images to devices with retina displays.</p>
-                </div>
-                <div class="col-md-3">
-                    <i class="fa fa-rocket fa-3x"></i>
-                    <h3>Service Name</h3>
-                    <p> Clean & fully commented code and a stunning documentation make it very easy to setup</p>
-                </div>
-                <div class="col-md-3">
-                    <i class="fa fa-camera fa-3x"></i>
-                    <h3>Service Name</h3>
-                    <p> Clean & fully commented code and a stunning documentation make it very easy to setup</p>
-                </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                                <h3><i class="fa fa-desktop fa-lg"></i> Fully Responsive</h3>
+                                <p>Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops</p>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay=".6s">
+                                <h3><i class="fa fa-heart fa-lg"></i> Built with Bootstrap3</h3>
+                                <p> Hybrid will look beautiful on any device. Serve high-resolution images to devices with retina displays</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay=".6s">
+                                <h3><i class="fa fa-rocket fa-lg"></i> Font-Awesome 300+ Icons</h3>
+                                <p> Clean and lightweight code based on bootstrap make it very easy to setup</p>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay=".8s">
+                                <h3><i class="fa fa-css3 fa-lg"></i> HTML5 & CSS3 Valid</h3>
+                                <p> Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 hidden-sm img-about-greed text-center wow slideInRight"  data-wow-duration="2s">
+                        <img src="img/laptop.png" alt="">
+                    </div>
             </div>
         </div>
-
     </div>
 </section>
 
-<aside class="callout">
-    <div class="container-fluid text-vertical text-center">
-        <div class="col-sm-10 col-sm-offset-1">
-            <h1>It’s time to grow your business. Get it Now!</h1>
-            <p>Designed for Everyone. Let’s give your website a brand.</p>
-            <div class="row"><a href="#" class="button border-button">DOWNLOAD HYBRID <i class="fa fa-power-off"></i></a></div>
-        </div>
-    </div>
-</aside>
-
-<section id="portfolio" class="portfolio">
-    <div class="container-fluid text-center">
-        <h1>Our Work</h1>
-        <h3>We believe our work speaks for itself. Browse our most recent projects below</h3>
-
-        <div class="row">
-            <div class="col-md-3 no-pad">
-                <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/4.jpg">
-                </a>
-            </div>
-
-            <div class="col-md-3 no-pad">
-
-                <div class="videowrapper">
-                    <div class="videowrapper">
-                        <iframe src="http://player.vimeo.com/video/106981304?color=ffffff&title=0&byline=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<!-- call-to-action -->
+<div class="call-to-action">
+    <div class="container-fluid">
+            <div class="col-md-5 col-md-offset-1">
+                <div id="carousel-call-to-action" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-call-to-action" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-call-to-action" data-slide-to="1"></li>
+                        <li data-target="#carousel-call-to-action" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="carousel-caption">
+                                <h2 class="heading">One code base</h2>
+                                <p>Seo Optimized, very lightweight code based on bootstrap. Easy to use and fast loading. Responsive layout, optimized for high conversion. Clean design focused on good readability.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <h1>Fully Responsive</h1>
+                                <p>Seo Optimized, very lightweight code based on bootstrap. Easy to use and fast loading. Responsive layout, optimized for high conversion. Clean design focused on good readability.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <h2 class="heading">Why Choose Hybrid?</h2>
+                                <p>Seo Optimized, very lightweight code based on bootstrap. Easy to use and fast loading. Responsive layout, optimized for high conversion. Clean design focused on good readability.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
-
-            <div class="col-md-3 no-pad">
-                <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/2.jpg">
-                </a>
+            <div class="col-md-3 col-md-offset-2 text-center wow fadeIn">
+                <br><i class="fa fa-5x fa-h-square"></i><br>
+                <a href="https://wrapbootstrap.com/theme/hybrid-multipurpose-landing-page-WB0N64HDJ" class="btn border-button">DOWNLOAD HYBRID <i class="fa fa-power-off"></i></a>
             </div>
-            <div class="col-md-3 no-pad">
-                <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/3.jpg">
-                </a>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-3 no-pad">
-                <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/1.jpg">
-                </a>
-            </div>
-            <div class="col-md-3 no-pad">
-                <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/5.jpg">
-                </a>
-            </div>
-            <div class="col-md-3 no-pad">
-
-                <div class="videowrapper">
-                    <div class="videowrapper">
-                        <iframe src="http://player.vimeo.com/video/87701971?color=ffffff&title=0&byline=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-md-3 no-pad">
-                <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/6.jpg">
-                </a>
-            </div>
-        </div>
-
     </div>
-</section>
+</div>
 
-<aside class="call-to-action">
+<!-- services -->
+<section id="services" class="head">
     <div class="container">
         <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 text-center">
-                <h1>Don’t Miss This Great Opportunity</h1>
-                <p>The theme is open source, and you can use it for any purpose, personal or commercial. You can download HYBRID <i class="fa fa-power-off"></i> for free on the <a href="">preview page at forbetterweb.com</a>.
-                <div class="row"><a href="#" class="button border-button">DOWNLOAD HYBRID <i class="fa fa-power-off"></i></a></div>
+            <div class="col-xs-12 text-center wow fadeIn">
+                <h2 class="heading">Our Services</h2>
+                <p class="lead">Hybrid will look beautiful on any device. Serve high-resolution images to devices with retina displays</p>
             </div>
         </div>
     </div>
-</aside>
+</section>
 
+<section class="services">
+    <div class="container-fluid">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="row wow fadeIn" data-wow-delay=".2s">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3><i class="fa fa-desktop fa-lg"></i> Fully Responsive</h3>
+                    <p>Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3><i class="fa fa-heart fa-lg"></i> Look Beautiful</h3>
+                    <p> Hybrid will look beautiful on any device. Serve high-resolution images to devices with retina displays</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3><i class="fa fa-rocket fa-lg"></i> Efficiently Scales</h3>
+                    <p> Clean and lightweight code based on bootstrap make it very easy to setup</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3><i class="fa fa-camera fa-lg"></i> Get it Now!</h3>
+                    <p> Hybrid easily and efficiently scales your project with one code base, from phones to tablets to desktops</p>
+                </div>
+            </div>
+            <div class="row wow fadeIn" data-wow-delay=".6s">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3><i class="fa fa-male fa-lg"></i> Lifetime updates</h3>
+                    <p>Designed for Everyone. Let’s give your website a brand</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3><i class="fa fa-bank fa-lg"></i> Designer Friendly</h3>
+                    <p> Hybrid will look beautiful on any device. Serve high-resolution images to devices with retina displays</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3><i class="fa fa-anchor fa-lg"></i> Easy to Use</h3>
+                    <p> Clean & fully commented code and a stunning documentation make it very easy to setup</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3><i class="fa fa-coffee fa-lg"></i> Lightweight code</h3>
+                    <p> We believe our work speaks for itself. Browse our most recent projects below</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- callout -->
+<section class="callout">
+    <div class="container-fluid text-vertical text-center">
+        <div class="col-sm-10 col-sm-offset-1 wow fadeInDownBig">
+            <i class="fa fa-5x fa-h-square"></i><br>
+            <h2 class="heading">It’s time to grow your business. Get it Now!</h2>
+            <p>Designed for Everyone. Let’s give your website a brand.</p>
+            <div class="row"><a href="https://wrapbootstrap.com/theme/hybrid-multipurpose-landing-page-WB0N64HDJ" class="btn border-button">DOWNLOAD HYBRID <i class="fa fa-power-off"></i></a></div>
+        </div>
+    </div>
+</section>
+
+<!-- sponsors -->
 <div id="sponsor">
     <div class="container-fluid">
-        <div class="row sponsor text-center">
-            <div class="col-sm-2 col-sm-offset-2">
-                <img src="img/client1.png">
+        <div class="row sponsor text-center wow fadeInLeftBig">
+            <div class="col-md-2 gray col-md-offset-1">
+                <a href="/"><img src="img/logo1.png" alt=""></a>
             </div>
-            <div class="col-sm-2">
-                <img src="img/client2.png">
+            <div class="col-md-2 gray">
+                <a href="/"><img src="img/logo2.png" alt=""></a>
             </div>
-            <div class="col-sm-2">
-                <img src="img/client3.png">
+            <div class="col-md-2 gray">
+                <a href="/"><img src="img/logo3.png" alt=""></a>
             </div>
-            <div class="col-sm-2">
-                <img src="img/client4.png">
+            <div class="col-md-2 gray">
+                <a href="/"><img src="img/logo4.png" alt=""></a>
             </div>
+            <div class="col-md-2 gray">
+                <a href="/"><img src="img/logo5.png" alt=""></a>
+            </div>
+
         </div>
     </div>
 </div>
 
-<section id="contact" class="container text-center">
-    <div class="col-lg-8 col-lg-offset-2">
-        <h1>Contact</h1>
-        <p>Feel free to contact us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-        <h1>
-            <ul class="list-inline text-muted">
-                <li>
-                    <i class="fa fa-phone fa-fw"></i>(123) 456-7890
-                </li>
-                <li>
-                    <a href="mailto:elkind@elkind.net"><i class="fa fa-envelope fa-fw"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/jenyelkind"><i class="fa fa-twitter fa-fw"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/jenyelkind"><i class="fa fa-facebook fa-fw"></i></span></a>
-                </li>
-                <li>
-                    <a href="https://plus.google.com/+JenyElkind/"><i class="fa fa-google-plus fa-fw"></i></a>
-                </li>
-            </ul>
-        </h1>
-        <p>3481 Some Place, Somewhere Hills, CA 98217</p>
+<!-- contacts -->
+<div id="contact">
+    <div class="container-fluid overlay text-center">
+        <div class="col-md-6 col-md-offset-3 wow fadeIn">
+            <h2 class="heading">Contact Us</h2>
+            <h2><i class="fa fa-phone fa-fw"></i>(123) 456-7890</h2>
+            <p>Feel free to contact us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <ul class="list-inline">
+                    <li>
+                        <a href="/"><i class="fa fa-twitter fa-2x fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="/"><i class="fa fa-facebook fa-2x  fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="/"><i class="fa fa-youtube fa-2x  fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="/"><i class="fa fa-envelope-o fa-2x  fa-fw"></i></a>
+                    </li>
+                </ul>
+        </div>
     </div>
-</section>
+</div>
 
+<!-- footer -->
 <footer>
-    <div class="container text-muted text-center">
-        <h1><a href="#top">HYBRID<i class="fa fa-power-off fa-fw"></a></i></h1>
-        <p>Copyright &copy; Your Website 2015<br>
-            Theme: <a href="/">Hybrid</a> by&nbsp;<a href="http://forbetterweb.com">forbetterweb.com</a></p>
+    <div class="container text-muted text-center wow fadeIn">
+        <h2 class="heading"><a href="#top">HYBRID<i class="fa fa-power-off fa-fw"></i></a></h2>
+        <p>&copy;2015 Hybrid Bootstrap Template</p>
     </div>
 </footer>
 
 <!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
-<!-- SmoothScroll -->
-<script src="js/SmoothScroll.js"></script>
+<!-- Custom Theme JavaScripts -->
+<script src="js/hybrid.js"></script>
 
-<!-- Forms -->
-<script src="js/form.js"></script>
+<!-- jQuery Plugins -->
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.placeholder.min.js"></script>
 
-<!-- Sidebar menu -->
-<script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-</script>
 </body>
 </html>
