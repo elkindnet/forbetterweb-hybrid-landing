@@ -217,6 +217,15 @@ h3 {
     color: #ccc;
 }
 
+.btn {
+    margin-bottom: 10px;
+}
+
+.btn-danger {
+    background: #c00;
+    border: #900;
+}
+
 a.border-button, a.border-button-black, .border-button, .border-button-black {
     font-size:19px;
     padding:10px 50px;
