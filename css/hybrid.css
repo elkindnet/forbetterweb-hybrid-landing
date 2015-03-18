@@ -294,7 +294,8 @@ a.border-button-black, .border-button-black {
 }
 
 #testimonials,
-.call-to-action {
+.call-to-action,
+#contact {
     background: #1B1F23;
     color: #fff;
 }
@@ -482,6 +483,7 @@ footer {
     background: #eee;
 }
 
+#contact,
 footer,
 .overlay,
 .callout .text-vertical,
@@ -508,11 +510,6 @@ footer,
     display: table;
     width: 100%;
     color: #fff;
-    background: url(../img/contact.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 .header a, .call-to-action a, .callout a, #contact a {
@@ -561,8 +558,7 @@ footer,
         margin: 0 auto;
     }
 
-    .call-to-action .carousel-caption,
-    .call-to-action .carousel-indicators {
+    .call-to-action {
         text-align: center;
         width: 100%;
     }
@@ -584,7 +580,7 @@ footer,
     #testimonials {
         height: 620px;
     }
-
+    #contact,
     .services,
     .about,
     .case-study,
