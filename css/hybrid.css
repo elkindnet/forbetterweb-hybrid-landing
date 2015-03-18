@@ -411,11 +411,10 @@ label {
     background: #eee;
 }
 
-.services .fa,
-.about-grid .fa,
-.case-study .fa {
+.services .fa {
     color:#789;
-    padding: 30px 15px 0 0;
+    padding: 20px 0 30px;
+    display: block;
 }
 
 .callout {
