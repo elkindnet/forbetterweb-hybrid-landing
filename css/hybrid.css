@@ -226,6 +226,22 @@ h3 {
     border: #900;
 }
 
+.border-button-header {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 16px;
+}
+
+.border-button-header:hover, .border-button-header:focus {
+    color: #fff;
+}
+
+.border-button-header, .border-button-header2 {
+    width: 240px;
+    margin-right: 10px;
+}
+
 a.border-button, a.border-button-black, .border-button, .border-button-black {
     font-size:19px;
     padding:10px 50px;

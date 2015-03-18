@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4913295" vertical-offset="255" max-vertical-offset="5117">
-              <caret line="40" column="118" selection-start-line="40" selection-start-column="118" selection-end-line="40" selection-end-column="118" />
+            <state vertical-scroll-proportion="0.68786126" vertical-offset="255" max-vertical-offset="5134">
+              <caret line="49" column="196" selection-start-line="49" selection-start-column="196" selection-end-line="49" selection-end-column="196" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,8 @@
       <file leaf-file-name="hybrid.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hybrid.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.862068" vertical-offset="3307" max-vertical-offset="10319">
-              <caret line="225" column="14" selection-start-line="225" selection-start-column="14" selection-end-line="225" selection-end-column="14" />
+            <state vertical-scroll-proportion="-12.586206" vertical-offset="3579" max-vertical-offset="10591">
+              <caret line="232" column="21" selection-start-line="232" selection-start-column="21" selection-end-line="232" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -89,9 +89,9 @@
         <option value="$PROJECT_DIR$/../forbetterweb/codedesign/style.css" />
         <option value="$PROJECT_DIR$/git.ignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/hybrid.css" />
         <option value="$PROJECT_DIR$/js/hybrid.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/hybrid.css" />
       </list>
     </option>
   </component>
@@ -393,14 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/hybrid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.862068" vertical-offset="3307" max-vertical-offset="10319">
-          <caret line="225" column="14" selection-start-line="225" selection-start-column="14" selection-end-line="225" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/hybrid.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26316">
@@ -411,10 +403,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/hybrid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.586206" vertical-offset="3579" max-vertical-offset="10591">
+          <caret line="232" column="21" selection-start-line="232" selection-start-column="21" selection-end-line="232" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4913295" vertical-offset="255" max-vertical-offset="5117">
-          <caret line="40" column="118" selection-start-line="40" selection-start-column="118" selection-end-line="40" selection-end-column="118" />
+        <state vertical-scroll-proportion="0.68786126" vertical-offset="255" max-vertical-offset="5134">
+          <caret line="49" column="196" selection-start-line="49" selection-start-column="196" selection-end-line="49" selection-end-column="196" />
           <folding />
         </state>
       </provider>
