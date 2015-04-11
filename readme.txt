@@ -28,6 +28,11 @@ Features
 
 Changelog
 =========
+
+v1.2 - 8.04.2015
+* Updated to Bootstrap 3.3.4
+* Minor bugfix
+
 v1.1 - 16.03.2015
 * Added HTML5 Placeholder jQuery Plugin for contact form (for internet explorer 9 compatibility)
 * Removed "Filter Gray" from sponsors icons
